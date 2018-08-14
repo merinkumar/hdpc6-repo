@@ -1,0 +1,28 @@
+[hdpc6]
+hdpc6000 ansible_user=root
+hdpc6001 ansible_user=root
+hdpc6002 ansible_user=root
+hdpc6003 ansible_user=root
+hdpc6004 ansible_user=root
+hdpc6005 ansible_user=root
+
+[hdpc6ambari]
+hdpc6005 ansible_user=root
+
+[hdpc6namenode]
+hdpc6000 ansible_user=root
+ 
+[hdpc6test]
+hdpc6005 ansible_user=root
+
+[hdpc6secondarynamenode]
+hdpc6001 ansible_user=root
+
+[hdpc6resourcemanager]
+hdpc6001 ansible_user=root
+
+[hdpc6workers]
+hdpc6003 ansible_user=root
+hdpc6002 ansible_user=root
+hdpc6004 ansible_user=root
+hdpc6005 ansible_user=root

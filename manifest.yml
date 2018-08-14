@@ -1,0 +1,7 @@
+---
+  instances: 6
+  name_prefix: hdpc600 
+  memory: 5120
+  cpus: 2
+  privateip_prefix: 192.168.30.2
+  bootstrap: bootstrap.sh
